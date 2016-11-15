@@ -1,0 +1,62 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: arial;
+  color:black;
+}
+
+h1 {
+  color: #823b8e;
+}
+
+#navbar {
+  height: 50px;
+  background-color: #eeb9f7;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #823b8e;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #823b8e;
+}
+
+a:hover {
+  color:#54396b;
+}
+
+
+.content {
+  width: 60%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+p a:hover {
+  color:black;
+  font-weight: bold;
+}
+

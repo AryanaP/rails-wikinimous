@@ -1,0 +1,9 @@
+<h1>Specific Article</h1>
+
+<h2><%= raw Kramdown::Document.new(@article.title).to_html %></h2>
+<p><%= raw Kramdown::Document.new(@article.content).to_html %></p>
+<p><%= link_to "Edit Article", edit_article_path(@article) %></p>
+<p><%= link_to "Delete Article", article_path(@article), method: :delete %></p>
+
+
+<%= link_to "All Articles", articles_path %>
